@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4F73DA87-F511-9E9D-CA2F-6C15EE21E4AE" name="Product">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:50:16 UTC</createdTime>
+<generatorID>F7724B32-3A5B-6A5B-2D26-AF2DB536F611</generatorID>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<engineerTo>
+<item key="62342BBE-70A5-7907-7F80-5484DC29A576" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ProdName" id="6D491378-9D52-AFEC-FC5E-735A4D8AE50B">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:50:16 UTC</createdTime>
+<generatorID>112E66D6-ECF7-C570-772C-BDF2B11EED88</generatorID>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<engineerTo>
+<item key="62342BBE-70A5-7907-7F80-5484DC29A576" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>94D9F636-219D-6092-ACA8-F8D82B6152D4</domain>
+</Attribute>
+<Attribute name="Price" id="AFC12803-867D-4225-F8D9-3899031E25C3">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:50:16 UTC</createdTime>
+<generatorID>9D46B16C-E4B8-D608-D9D7-DFDA736D5C92</generatorID>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<engineerTo>
+<item key="62342BBE-70A5-7907-7F80-5484DC29A576" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>B2E63803-C54D-E062-F7DC-355231A501DF</domain>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F4ED318A-B905-01D2-5D74-0B23ECA03B89" name="Product PK">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:50:16 UTC</createdTime>
+<generatorID>7D326AC4-7B3A-C8F4-89DC-C83FF59DCC53</generatorID>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<engineerTo>
+<item key="62342BBE-70A5-7907-7F80-5484DC29A576" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6D491378-9D52-AFEC-FC5E-735A4D8AE50B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

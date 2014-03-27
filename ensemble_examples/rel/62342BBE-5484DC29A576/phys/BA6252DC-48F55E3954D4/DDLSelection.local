@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.storage.udb.v71.StorageDesignUDBv71>
+   <object objectID="IBMDEFAULTBP" markedGenerate="false"/>
+   <object objectID="IBMDEFAULTBP" markedGenerate="false"/>
+   <object objectID="IBMDEFAULTGROUP" markedGenerate="false"/>
+   <object objectID="IBMTEMPGROUP" markedGenerate="false"/>
+</oracle.dbtools.crest.model.design.storage.udb.v71.StorageDesignUDBv71>

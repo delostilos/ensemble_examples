@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="00159901-7518-CF64-C167-889D6395FAAB" name="Department">
+<sourceDDLFile>ensemble_example.sql</sourceDDLFile>
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:46:31 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<importedID>956586EE-C833-83DA-7456-9AC2397912DA</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DepName" id="89083CF9-5DFE-E6D8-A369-DB84571E1668">
+<sourceDDLFile>ensemble_example.sql</sourceDDLFile>
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:46:31 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<importedID>650D20E1-59C9-2CB6-E292-F107788FDA20</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>94D9F636-219D-6092-ACA8-F8D82B6152D4</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Budget" id="90F9FBE5-D613-9AB4-4391-7D5DAC9FEC76">
+<sourceDDLFile>ensemble_example.sql</sourceDDLFile>
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:46:31 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<importedID>BAB5180D-6048-DBC6-FF28-020C46AD968D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>B2E63803-C54D-E062-F7DC-355231A501DF</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="30064369-BC2A-F5DA-5E6F-B1A53CDCD8EC" name="Department_PK">
+<sourceDDLFile>ensemble_example.sql</sourceDDLFile>
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:46:31 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<importedID>92FC73FB-7494-AC92-7617-C378B76E2C71</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89083CF9-5DFE-E6D8-A369-DB84571E1668"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

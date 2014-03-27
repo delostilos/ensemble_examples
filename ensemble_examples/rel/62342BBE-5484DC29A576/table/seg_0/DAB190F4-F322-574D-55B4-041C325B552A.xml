@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DAB190F4-F322-574D-55B4-041C325B552A" name="Interest">
+<sourceDDLFile>ensemble_example.sql</sourceDDLFile>
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:46:31 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<importedID>F6DE88E4-7EB7-2D9D-D528-E4E16FD9EEDD</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EmpName" id="885B5ECC-AF65-D590-DB4D-E9EDA9EFEF1F">
+<sourceDDLFile>ensemble_example.sql</sourceDDLFile>
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:46:31 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<importedID>19EE9344-216F-B147-17B4-FC8232D3239D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>94D9F636-219D-6092-ACA8-F8D82B6152D4</domain>
+<delegate>208D067E-2DFB-B44C-95CB-80FAC11D1938</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="48B5B0B8-1DE0-0B26-0E32-9BC88FCF7903" referredColumn="208D067E-2DFB-B44C-95CB-80FAC11D1938"/>
+</associations>
+</Column>
+<Column name="ProdName" id="BD5654A3-BFDC-208E-EB20-C81BCE2D8E33">
+<sourceDDLFile>ensemble_example.sql</sourceDDLFile>
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:46:31 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<importedID>A53A3B5C-E29C-0E2D-4C41-4FDD9FFC337A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>94D9F636-219D-6092-ACA8-F8D82B6152D4</domain>
+<delegate>112E66D6-ECF7-C570-772C-BDF2B11EED88</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="295C370B-2BBA-5166-FE06-BA3D2AF4B9D5" referredColumn="112E66D6-ECF7-C570-772C-BDF2B11EED88"/>
+</associations>
+</Column>
+<Column name="Degree" id="35AC9FFC-ABCE-692D-1AEF-0C01D0DA4C8E">
+<sourceDDLFile>ensemble_example.sql</sourceDDLFile>
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:46:31 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<importedID>D0AEEB3F-D2C5-AF24-F824-BDB9E35614C3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<domain>488B783C-66A0-EC9F-6F21-386AB8D639B2</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AD12CA29-DEC6-3AA3-8291-D8FD7B37ED48" name="Interests_PK">
+<sourceDDLFile>ensemble_example.sql</sourceDDLFile>
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:46:31 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<importedID>64B478C1-A800-BBF3-4D8A-BF1046F9964F</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="885B5ECC-AF65-D590-DB4D-E9EDA9EFEF1F"/>
+<colUsage columnID="BD5654A3-BFDC-208E-EB20-C81BCE2D8E33"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F14C60A8-4270-7C9A-B862-3AE5FDEB24F8" name="Interest_Employee_FK">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:46:31 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="885B5ECC-AF65-D590-DB4D-E9EDA9EFEF1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4C41EBD8-54B1-F094-128A-C975AD2AA05B" name="Interest_Product_FK">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:46:31 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD5654A3-BFDC-208E-EB20-C81BCE2D8E33"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Manager_FK" directorySegmentName="seg_0" id="5D3B2E3B-F605-A1AC-596A-2600421D282E">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:50:16 UTC</createdTime>
+<generatorID>68CB9755-CFF5-636D-1F0F-6E0B607A1578</generatorID>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<engineerTo>
+<item key="62342BBE-70A5-7907-7F80-5484DC29A576" value="true"/>
+</engineerTo>
+<targetPk>0D2BEA96-64C4-7BD4-EDDA-7C670479B701</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3599DFDC-5DDE-0590-DDB9-CB520B3225AC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3599DFDC-5DDE-0590-DDB9-CB520B3225AC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

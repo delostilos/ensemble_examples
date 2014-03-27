@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="ensemble_example_Domains">
+   <domains>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="SMALLINT_0_0_0" id="488B783C-66A0-EC9F-6F21-386AB8D639B2">
+         <createdBy>delostilos</createdBy>
+         <createdTime>2014-03-27 23:46:31 UTC</createdTime>
+         <ownerDesignName>ensemble_examples</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>ensemble_example_Domains</fileName>
+         <logicalDatatype>LOGDT018</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_255" id="94D9F636-219D-6092-ACA8-F8D82B6152D4">
+         <createdBy>delostilos</createdBy>
+         <createdTime>2014-03-27 23:46:31 UTC</createdTime>
+         <ownerDesignName>ensemble_examples</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>255</dataTypeSize>
+         <fileName>ensemble_example_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_1" id="9EC5D499-EF57-A183-7BCD-939EACE74F88">
+         <createdBy>delostilos</createdBy>
+         <createdTime>2014-03-27 23:46:31 UTC</createdTime>
+         <ownerDesignName>ensemble_examples</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>1</dataTypeSize>
+         <fileName>ensemble_example_Domains</fileName>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="DECIMAL_12_2_0" id="B2E63803-C54D-E062-F7DC-355231A501DF">
+         <createdBy>delostilos</createdBy>
+         <createdTime>2014-03-27 23:46:31 UTC</createdTime>
+         <ownerDesignName>ensemble_examples</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>12</dataTypePrecision>
+         <dataTypeScale>2</dataTypeScale>
+         <dataTypeSize>0</dataTypeSize>
+         <fileName>ensemble_example_Domains</fileName>
+         <logicalDatatype>LOGDT026</logicalDatatype>
+      </Domain>
+   </domains>
+</DomainFile>

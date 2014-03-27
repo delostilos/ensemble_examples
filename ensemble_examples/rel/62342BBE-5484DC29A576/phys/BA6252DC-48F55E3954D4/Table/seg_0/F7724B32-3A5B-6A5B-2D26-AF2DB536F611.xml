@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyUDBv71 class="oracle.dbtools.crest.model.design.storage.udb.v71.TableProxyUDBv71" name="Product" directorySegmentName="seg_0" id="F7724B32-3A5B-6A5B-2D26-AF2DB536F611">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:46:31 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.udb.v71.ColumnProxyUDBv71" name="ProdName" id="112E66D6-ECF7-C570-772C-BDF2B11EED88">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:46:31 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<generate>BY DEFAULT</generate>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.udb.v71.ColumnProxyUDBv71" name="Price" id="9D46B16C-E4B8-D608-D9D7-DFDA736D5C92">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:46:31 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<generate>BY DEFAULT</generate>
+</ColumnProxy>
+</columnProxies>
+</TableProxyUDBv71>

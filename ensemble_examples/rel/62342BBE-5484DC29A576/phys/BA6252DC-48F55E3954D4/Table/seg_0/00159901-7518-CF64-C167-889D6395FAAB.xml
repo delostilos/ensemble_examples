@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyUDBv71 class="oracle.dbtools.crest.model.design.storage.udb.v71.TableProxyUDBv71" name="Department" directorySegmentName="seg_0" id="00159901-7518-CF64-C167-889D6395FAAB">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:46:31 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.udb.v71.ColumnProxyUDBv71" name="DepName" id="89083CF9-5DFE-E6D8-A369-DB84571E1668">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:46:31 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<generate>BY DEFAULT</generate>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.udb.v71.ColumnProxyUDBv71" name="Budget" id="90F9FBE5-D613-9AB4-4391-7D5DAC9FEC76">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:46:31 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<generate>BY DEFAULT</generate>
+</ColumnProxy>
+</columnProxies>
+</TableProxyUDBv71>

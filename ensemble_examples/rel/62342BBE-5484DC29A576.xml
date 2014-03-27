@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="example" id="62342BBE-70A5-7907-7F80-5484DC29A576" mainViewID="66385461-7033-0E2B-4F59-84F6EC9FFD52">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:43:09 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>BA6252DC-29CE-184D-7701-48F55E3954D4</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>ensemble_example.sql</fileName>
+<pathName>/home/delostilos/repos/ensemble_examples</pathName>
+<dbType>2</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

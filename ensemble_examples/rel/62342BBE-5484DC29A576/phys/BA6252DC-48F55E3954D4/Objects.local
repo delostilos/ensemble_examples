@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.storage.udb.v71.StorageDesignUDBv71>
+   <object objectType="SType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="SDO_GEOMETRY" seqName="seg_0"/>
+   <object objectType="SType" objectID="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" name="XMLTYPE" seqName="seg_0"/>
+   <object objectType="Table" objectID="00159901-7518-CF64-C167-889D6395FAAB" name="Department" seqName="seg_0"/>
+   <object objectType="Table" objectID="DAB190F4-F322-574D-55B4-041C325B552A" name="Interest" seqName="seg_0"/>
+   <object objectType="Table" objectID="EB7BB64F-6DCD-9DB7-0FAD-5B42E8C91196" name="Employee" seqName="seg_0"/>
+   <object objectType="Table" objectID="F7724B32-3A5B-6A5B-2D26-AF2DB536F611" name="Product" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.storage.udb.v71.StorageDesignUDBv71>

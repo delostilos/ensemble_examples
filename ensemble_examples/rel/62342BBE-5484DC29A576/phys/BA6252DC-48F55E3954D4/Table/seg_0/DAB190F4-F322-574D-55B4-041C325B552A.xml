@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyUDBv71 class="oracle.dbtools.crest.model.design.storage.udb.v71.TableProxyUDBv71" name="Interest" directorySegmentName="seg_0" id="DAB190F4-F322-574D-55B4-041C325B552A">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:46:31 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.udb.v71.ColumnProxyUDBv71" name="Degree" id="35AC9FFC-ABCE-692D-1AEF-0C01D0DA4C8E">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:46:31 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<generate>BY DEFAULT</generate>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.udb.v71.ColumnProxyUDBv71" name="EmpName" id="885B5ECC-AF65-D590-DB4D-E9EDA9EFEF1F">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:46:31 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<generate>BY DEFAULT</generate>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.udb.v71.ColumnProxyUDBv71" name="ProdName" id="BD5654A3-BFDC-208E-EB20-C81BCE2D8E33">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:46:31 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<generate>BY DEFAULT</generate>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.udb.v71.FKProxyUDBv71" name="Interest_Product_FK" id="4C41EBD8-54B1-F094-128A-C975AD2AA05B">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:46:31 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.udb.v71.FKProxyUDBv71" name="Interest_Employee_FK" id="F14C60A8-4270-7C9A-B862-3AE5FDEB24F8">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:46:31 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxyUDBv71>

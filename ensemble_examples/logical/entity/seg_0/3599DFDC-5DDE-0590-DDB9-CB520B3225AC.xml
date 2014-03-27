@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3599DFDC-5DDE-0590-DDB9-CB520B3225AC" name="Employee">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:50:15 UTC</createdTime>
+<generatorID>EB7BB64F-6DCD-9DB7-0FAD-5B42E8C91196</generatorID>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<engineerTo>
+<item key="62342BBE-70A5-7907-7F80-5484DC29A576" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="EmpName" id="3940AFEC-71C7-FA66-8F42-992CE1351133">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:50:16 UTC</createdTime>
+<generatorID>208D067E-2DFB-B44C-95CB-80FAC11D1938</generatorID>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<engineerTo>
+<item key="62342BBE-70A5-7907-7F80-5484DC29A576" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>94D9F636-219D-6092-ACA8-F8D82B6152D4</domain>
+</Attribute>
+<Attribute name="Gender" id="F7B05E80-402B-384D-1F22-B386A14F4CB1">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:50:16 UTC</createdTime>
+<generatorID>C5F4A999-03A7-6EA0-2FE9-F355A2703183</generatorID>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<engineerTo>
+<item key="62342BBE-70A5-7907-7F80-5484DC29A576" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9EC5D499-EF57-A183-7BCD-939EACE74F88</domain>
+</Attribute>
+<Attribute name="DepName" id="29DAFACE-0D2C-6653-8BD0-53331E25586D">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:50:16 UTC</createdTime>
+<generatorID>256CA19F-A9C7-BAC7-8BCF-719EDDC49710</generatorID>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<engineerTo>
+<item key="62342BBE-70A5-7907-7F80-5484DC29A576" value="true"/>
+</engineerTo>
+<referedAttribute>E3F5A23A-440C-E345-E871-4EA536A21026</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>94D9F636-219D-6092-ACA8-F8D82B6152D4</domain>
+</Attribute>
+<Attribute name="Job" id="1DA0C291-7CA7-CDBE-338E-F5F42DE05333">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:50:16 UTC</createdTime>
+<generatorID>B5C930EF-E111-485D-3C68-09D18FF6B715</generatorID>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<engineerTo>
+<item key="62342BBE-70A5-7907-7F80-5484DC29A576" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>94D9F636-219D-6092-ACA8-F8D82B6152D4</domain>
+</Attribute>
+<Attribute name="HoursPerWeek" id="B8AC370A-181E-B8D2-2E11-7AD903BE3D83">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:50:16 UTC</createdTime>
+<generatorID>D91E957A-E260-719E-EAFD-491E2204863E</generatorID>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<engineerTo>
+<item key="62342BBE-70A5-7907-7F80-5484DC29A576" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<domain>488B783C-66A0-EC9F-6F21-386AB8D639B2</domain>
+</Attribute>
+<Attribute name="Manager" id="D2B36731-97AA-0E56-456B-4C94E5186D7E">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:50:16 UTC</createdTime>
+<generatorID>5D3B2E3B-F605-A1AC-596A-2600421D282E</generatorID>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<engineerTo>
+<item key="62342BBE-70A5-7907-7F80-5484DC29A576" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>3940AFEC-71C7-FA66-8F42-992CE1351133</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>94D9F636-219D-6092-ACA8-F8D82B6152D4</domain>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0D2BEA96-64C4-7BD4-EDDA-7C670479B701" name="Employee PK">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:50:16 UTC</createdTime>
+<generatorID>63A8BFB3-F82E-94E3-58F5-5CE06E3ECDA7</generatorID>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<engineerTo>
+<item key="62342BBE-70A5-7907-7F80-5484DC29A576" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3940AFEC-71C7-FA66-8F42-992CE1351133</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

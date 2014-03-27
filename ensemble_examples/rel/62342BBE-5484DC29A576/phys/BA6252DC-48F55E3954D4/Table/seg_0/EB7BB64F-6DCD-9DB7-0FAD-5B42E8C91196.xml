@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyUDBv71 class="oracle.dbtools.crest.model.design.storage.udb.v71.TableProxyUDBv71" name="Employee" directorySegmentName="seg_0" id="EB7BB64F-6DCD-9DB7-0FAD-5B42E8C91196">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:46:31 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.udb.v71.ColumnProxyUDBv71" name="Manager" id="12B56428-9E91-52F4-72E3-04912554401F">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:46:31 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<generate>BY DEFAULT</generate>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.udb.v71.ColumnProxyUDBv71" name="EmpName" id="208D067E-2DFB-B44C-95CB-80FAC11D1938">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:46:31 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<generate>BY DEFAULT</generate>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.udb.v71.ColumnProxyUDBv71" name="DepName" id="731B6853-12BD-FC38-3CB1-8500A08DF5B4">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:46:31 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<generate>BY DEFAULT</generate>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.udb.v71.ColumnProxyUDBv71" name="Job" id="B5C930EF-E111-485D-3C68-09D18FF6B715">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:46:31 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<generate>BY DEFAULT</generate>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.udb.v71.ColumnProxyUDBv71" name="Gender" id="C5F4A999-03A7-6EA0-2FE9-F355A2703183">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:46:31 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<generate>BY DEFAULT</generate>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.udb.v71.ColumnProxyUDBv71" name="HoursPerWeek" id="D91E957A-E260-719E-EAFD-491E2204863E">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:46:31 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<generate>BY DEFAULT</generate>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.udb.v71.FKProxyUDBv71" name="Employee_Department_FK" id="21335526-AC62-7EDD-F508-71421B31D20E">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:46:31 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.udb.v71.FKProxyUDBv71" name="Manager_FK" id="9E2E9D88-26D3-9AD6-1CC9-2F6374A45D44">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:46:31 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxyUDBv71>

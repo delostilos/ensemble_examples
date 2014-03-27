@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StorageDesignUDBv71 class="oracle.dbtools.crest.model.design.storage.udb.v71.StorageDesignUDBv71" name="DB2/UDB 7.1" id="ABDB0F84-3566-8182-BA5E-132096E743A7">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:46:26 UTC</createdTime>
+<ownerDesignName>Untitled_1</ownerDesignName>
+<siteID>BA6252DC-29CE-184D-7701-48F55E3954D4</siteID>
+<siteName>DB2/UDB 7.1</siteName>
+<siteType>2</siteType>
+</StorageDesignUDBv71>

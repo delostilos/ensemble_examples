@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EB7BB64F-6DCD-9DB7-0FAD-5B42E8C91196" name="Employee">
+<sourceDDLFile>ensemble_example.sql</sourceDDLFile>
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:46:31 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<importedID>30B59066-4BA9-F9FC-2435-E6364C1C888A</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EmpName" id="208D067E-2DFB-B44C-95CB-80FAC11D1938">
+<sourceDDLFile>ensemble_example.sql</sourceDDLFile>
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:46:31 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<importedID>F0C6C374-6429-3AAE-2C2E-90C99CCCE077</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>94D9F636-219D-6092-ACA8-F8D82B6152D4</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gender" id="C5F4A999-03A7-6EA0-2FE9-F355A2703183">
+<sourceDDLFile>ensemble_example.sql</sourceDDLFile>
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:46:31 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<importedID>097686AA-46C1-D3EC-DEC4-74FC30555FBE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9EC5D499-EF57-A183-7BCD-939EACE74F88</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DepName" id="731B6853-12BD-FC38-3CB1-8500A08DF5B4">
+<sourceDDLFile>ensemble_example.sql</sourceDDLFile>
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:46:31 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<importedID>C9DDBD02-8BEE-903A-3DB8-8EF7A5B6CC29</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>94D9F636-219D-6092-ACA8-F8D82B6152D4</domain>
+<delegate>89083CF9-5DFE-E6D8-A369-DB84571E1668</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E86D9AB0-01AE-D0A2-5941-E7B16EAF1CC3" referredColumn="89083CF9-5DFE-E6D8-A369-DB84571E1668"/>
+</associations>
+</Column>
+<Column name="Job" id="B5C930EF-E111-485D-3C68-09D18FF6B715">
+<sourceDDLFile>ensemble_example.sql</sourceDDLFile>
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:46:31 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<importedID>022463B2-C41A-4749-DC50-F4275781B556</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>94D9F636-219D-6092-ACA8-F8D82B6152D4</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HoursPerWeek" id="D91E957A-E260-719E-EAFD-491E2204863E">
+<sourceDDLFile>ensemble_example.sql</sourceDDLFile>
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:46:31 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<importedID>E40D4DCC-D418-FC8B-6D44-1F3E40224FD0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<domain>488B783C-66A0-EC9F-6F21-386AB8D639B2</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Manager" id="12B56428-9E91-52F4-72E3-04912554401F">
+<sourceDDLFile>ensemble_example.sql</sourceDDLFile>
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:46:31 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<importedID>E0E14CC2-28AF-C64B-A9FA-D5D77053302A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>94D9F636-219D-6092-ACA8-F8D82B6152D4</domain>
+<delegate>208D067E-2DFB-B44C-95CB-80FAC11D1938</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="68CB9755-CFF5-636D-1F0F-6E0B607A1578" referredColumn="208D067E-2DFB-B44C-95CB-80FAC11D1938"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="63A8BFB3-F82E-94E3-58F5-5CE06E3ECDA7" name="Employee_PK">
+<sourceDDLFile>ensemble_example.sql</sourceDDLFile>
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:46:31 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<importedID>16B93178-6878-6BA3-2583-0BC6E0654D5B</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="208D067E-2DFB-B44C-95CB-80FAC11D1938"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="21335526-AC62-7EDD-F508-71421B31D20E" name="Employee_Department_FK">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:46:31 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="731B6853-12BD-FC38-3CB1-8500A08DF5B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E2E9D88-26D3-9AD6-1CC9-2F6374A45D44" name="Manager_FK">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-03-27 23:46:31 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12B56428-9E91-52F4-72E3-04912554401F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
