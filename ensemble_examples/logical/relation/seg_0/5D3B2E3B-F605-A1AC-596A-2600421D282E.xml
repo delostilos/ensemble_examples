@@ -7,6 +7,7 @@
 <engineerTo>
 <item key="62342BBE-70A5-7907-7F80-5484DC29A576" value="true"/>
 </engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
 <targetPk>0D2BEA96-64C4-7BD4-EDDA-7C670479B701</targetPk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>

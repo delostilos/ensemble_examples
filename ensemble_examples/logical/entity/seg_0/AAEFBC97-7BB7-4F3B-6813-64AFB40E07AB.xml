@@ -15,6 +15,7 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="EmpName" id="F4D4D897-B809-53DF-3377-A8FACABFBBD7">
 <createdBy>delostilos</createdBy>
@@ -25,19 +26,6 @@
 <item key="62342BBE-70A5-7907-7F80-5484DC29A576" value="true"/>
 </engineerTo>
 <referedAttribute>3940AFEC-71C7-FA66-8F42-992CE1351133</referedAttribute>
-<use>0</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<domain>94D9F636-219D-6092-ACA8-F8D82B6152D4</domain>
-</Attribute>
-<Attribute name="ProdName" id="1826D22E-0B15-7E3E-ED99-CADBB7205DC1">
-<createdBy>delostilos</createdBy>
-<createdTime>2014-03-27 23:50:16 UTC</createdTime>
-<generatorID>A5A1FB00-5551-9AAA-B695-F13638BE957E</generatorID>
-<ownerDesignName>ensemble_examples</ownerDesignName>
-<engineerTo>
-<item key="62342BBE-70A5-7907-7F80-5484DC29A576" value="true"/>
-</engineerTo>
-<referedAttribute>6D491378-9D52-AFEC-FC5E-735A4D8AE50B</referedAttribute>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <domain>94D9F636-219D-6092-ACA8-F8D82B6152D4</domain>
@@ -68,7 +56,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>F4D4D897-B809-53DF-3377-A8FACABFBBD7</attributeRef>
-<attributeRef>1826D22E-0B15-7E3E-ED99-CADBB7205DC1</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
