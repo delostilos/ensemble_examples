@@ -13,6 +13,9 @@
 		<type name="Logging" color="-1776412" prefix="" id="3" />
 		<type name="Summary" color="-3148598" prefix="" id="4" />
 		<type name="Temporary" color="-1" prefix="" id="5" />
+		<type name="Hub" color="-6697729" prefix="" id="18F78617-E7D7-AD4D-42B3-22309A17EBD2" />
+		<type name="Link" color="-39322" prefix="" id="9E3F239C-7AF2-94C7-F0A3-4A7B8B22F353" />
+		<type name="Satellite" color="-3342592" prefix="" id="3F5C50A3-D1F4-9BD7-C975-096FB7BC775A" />
 	</classification_types>
 	<default_fonts_and_colors>
 		<fc_object classname="Entity" background="-5971457" foreground="-16776961">
