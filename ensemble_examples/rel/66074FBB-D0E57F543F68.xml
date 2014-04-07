@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="example_head_version" id="66074FBB-44C1-E135-4B2A-D0E57F543F68" mainViewID="E7A84720-1D05-0B5E-C298-2AA2EFD70E97">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-04-07 19:50:33 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>3FD120B5-9F4E-6278-D5E2-746D192C8319</selectedRDBMSSite>
+<useTemplateTable>true</useTemplateTable>
+<templateTableID>5E3EB015-EE85-0BA4-D4D9-E2AF789AD766</templateTableID>
+</relationalModel>

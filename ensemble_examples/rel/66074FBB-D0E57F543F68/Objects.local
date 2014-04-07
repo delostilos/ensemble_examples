@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="AC077C80-4FDE-C8B6-4A40-564B1F911A59" name="Department" seqName="seg_0"/>
+   <object objectType="Table" objectID="AF7F53DF-3A91-FA5D-20B2-AE4FEFCA154C" name="Employee" seqName="seg_0"/>
+   <object objectType="Table" objectID="E73C29CC-3C33-FA14-28CA-C15436C2F109" name="Interest" seqName="seg_0"/>
+   <object objectType="Table" objectID="0FFA0817-9FAE-E4F9-58E4-5220AA7BF10E" name="Product" seqName="seg_0"/>
+   <object objectType="Table" objectID="5E3EB015-EE85-0BA4-D4D9-E2AF789AD766" name="defaultcolumns" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="19FD4648-1028-4006-260E-C8FCBF7A73A8" name="Employee_Department_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="118F18E4-30BB-2335-4B80-0291425D7E93" name="Employee_Employee_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="9A354E0D-F828-F499-BB11-186E145A79CB" name="Interest_Employee_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="8D1BC8AB-DB91-B885-0836-F6360147073F" name="Interest_Product_FK" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

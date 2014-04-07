@@ -1,0 +1,162 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E73C29CC-3C33-FA14-28CA-C15436C2F109" name="Interest">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-04-07 20:25:37 UTC</createdTime>
+<generatorID>AAEFBC97-7BB7-4F3B-6813-64AFB40E07AB</generatorID>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Employee_EmpName" id="08C2BE87-99BF-A916-9081-58D34F83AF95">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-04-07 20:25:37 UTC</createdTime>
+<generatorID>F4D4D897-B809-53DF-3377-A8FACABFBBD7</generatorID>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>94D9F636-219D-6092-ACA8-F8D82B6152D4</domain>
+<delegate>6A0E2EC7-EF9F-E079-0C9C-6A80F1C8E984</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A354E0D-F828-F499-BB11-186E145A79CB" referredColumn="6A0E2EC7-EF9F-E079-0C9C-6A80F1C8E984"/>
+</associations>
+</Column>
+<Column name="Degree" id="01E077FC-071B-5ED0-0D9D-89C2D55CE1A5">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-04-07 20:25:37 UTC</createdTime>
+<generatorID>1EFCE84C-A09D-32D2-B7E4-88E406A9AB07</generatorID>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<domain>488B783C-66A0-EC9F-6F21-386AB8D639B2</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Interest_ID" id="1E34A748-5EB1-25A6-D990-730F451965F4">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-04-07 20:25:37 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Product_Product_ID" id="EB773EC1-2D99-02A8-20FC-DB2032F77D74">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-04-07 20:25:37 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>3E62AE6F-5E09-42C1-497B-E9AAF1B17780</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D1BC8AB-DB91-B885-0836-F6360147073F" referredColumn="3E62AE6F-5E09-42C1-497B-E9AAF1B17780"/>
+</associations>
+</Column>
+<Column name="dwh_valid_from" id="0387020B-E656-9D38-B790-4DC0B906F971">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-04-07 20:25:37 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+<propertyMap>
+<property name="ctemplateID" value="1F18D675-9673-15FB-E37D-B2F94E6BA9B9"/>
+</propertyMap>
+</Column>
+<Column name="dwh_valid_to" id="55F99A7C-09DB-A201-039A-4FEEB70F69AD">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-04-07 20:25:37 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+<propertyMap>
+<property name="ctemplateID" value="56B3EF70-3C04-CB7E-870D-7C16ED667741"/>
+</propertyMap>
+</Column>
+<Column name="dwh_status" id="426F0DD0-9CEE-2B29-337A-040534B5FC51">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-04-07 20:25:37 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+<propertyMap>
+<property name="ctemplateID" value="1C85A427-6505-B83A-708D-F8940970D8F5"/>
+</propertyMap>
+</Column>
+<Column name="dwh_source" id="7585B459-DCCF-E809-6F5D-A2B533555BC0">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-04-07 20:25:37 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+<propertyMap>
+<property name="ctemplateID" value="3A3D6BDD-F818-647C-624C-441893D018B3"/>
+</propertyMap>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E408615A-DF40-A876-32D8-6DCC0EC2B412" name="Interest_PK">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-04-07 20:25:37 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="1E34A748-5EB1-25A6-D990-730F451965F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E7BA69C-05D4-B8D1-1DDA-36D42EADBEBE" name="Interest__UN">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-04-07 20:25:37 UTC</createdTime>
+<generatorID>4F232553-67AC-FA50-5C1F-E7B4B740AAF8</generatorID>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08C2BE87-99BF-A916-9081-58D34F83AF95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="95A5AB9E-AFD1-DA83-8F7D-4236F3405A0B" name="Interest_Employee_FK">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-04-07 20:25:37 UTC</createdTime>
+<generatorID>484C20D1-9699-F1DF-5638-CB3BAC3D2532</generatorID>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08C2BE87-99BF-A916-9081-58D34F83AF95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5BF8A563-7A99-F1D9-84CF-194E43D114B7" name="Interest_Product_FK">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-04-07 20:25:37 UTC</createdTime>
+<generatorID>A5A1FB00-5551-9AAA-B695-F13638BE957E</generatorID>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB773EC1-2D99-02A8-20FC-DB2032F77D74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

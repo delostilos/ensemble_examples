@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AC077C80-4FDE-C8B6-4A40-564B1F911A59" name="Department">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-04-07 20:25:37 UTC</createdTime>
+<generatorID>07E1B5AE-FE56-509C-55DE-E418ABD5CDC7</generatorID>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DepName" id="2877A24E-FF0D-0D73-D6B1-9F31E3084FA6">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-04-07 20:25:37 UTC</createdTime>
+<generatorID>E3F5A23A-440C-E345-E871-4EA536A21026</generatorID>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>94D9F636-219D-6092-ACA8-F8D82B6152D4</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Budget" id="5AFF0B7F-F6F7-FD2F-7E7E-36A23D9D81BD">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-04-07 20:25:37 UTC</createdTime>
+<generatorID>500C8860-C089-1F55-18FB-C71DB2D2EF18</generatorID>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>B2E63803-C54D-E062-F7DC-355231A501DF</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Department_ID" id="8A3ECBA2-E109-BC1B-D8F7-8DD599032540">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-04-07 20:25:37 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="dwh_valid_from" id="E6B2744B-DC82-E2E7-1660-4F037A601B9F">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-04-07 20:25:37 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+<propertyMap>
+<property name="ctemplateID" value="1F18D675-9673-15FB-E37D-B2F94E6BA9B9"/>
+</propertyMap>
+</Column>
+<Column name="dwh_valid_to" id="DC39EF89-F9F5-CD89-E2E9-36D518E860EA">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-04-07 20:25:37 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+<propertyMap>
+<property name="ctemplateID" value="56B3EF70-3C04-CB7E-870D-7C16ED667741"/>
+</propertyMap>
+</Column>
+<Column name="dwh_status" id="0A9CC183-2520-0F51-1039-B765F560DE0F">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-04-07 20:25:37 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+<propertyMap>
+<property name="ctemplateID" value="1C85A427-6505-B83A-708D-F8940970D8F5"/>
+</propertyMap>
+</Column>
+<Column name="dwh_source" id="57AE329C-7717-8F33-872A-76A67D3942B7">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-04-07 20:25:37 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+<propertyMap>
+<property name="ctemplateID" value="3A3D6BDD-F818-647C-624C-441893D018B3"/>
+</propertyMap>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="80AAB995-11A3-B924-E8C4-08C38C560EB2" name="Department_PK">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-04-07 20:25:37 UTC</createdTime>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="8A3ECBA2-E109-BC1B-D8F7-8DD599032540"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="131E9DDB-6153-5B9B-36CE-7483CC86DCCC" name="Department__UN">
+<createdBy>delostilos</createdBy>
+<createdTime>2014-04-07 20:25:37 UTC</createdTime>
+<generatorID>E75158E6-D755-882E-3628-332FF3B257BB</generatorID>
+<ownerDesignName>ensemble_examples</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2877A24E-FF0D-0D73-D6B1-9F31E3084FA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
