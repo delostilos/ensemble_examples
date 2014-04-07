@@ -5,6 +5,7 @@
 <generatorID>EB7BB64F-6DCD-9DB7-0FAD-5B42E8C91196</generatorID>
 <ownerDesignName>ensemble_examples</ownerDesignName>
 <engineerTo>
+<item key="66074FBB-44C1-E135-4B2A-D0E57F543F68" value="true"/>
 <item key="62342BBE-70A5-7907-7F80-5484DC29A576" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -22,7 +23,9 @@
 <createdTime>2014-03-27 23:50:16 UTC</createdTime>
 <generatorID>208D067E-2DFB-B44C-95CB-80FAC11D1938</generatorID>
 <ownerDesignName>ensemble_examples</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
+<item key="66074FBB-44C1-E135-4B2A-D0E57F543F68" value="false"/>
 <item key="62342BBE-70A5-7907-7F80-5484DC29A576" value="true"/>
 </engineerTo>
 <use>0</use>
@@ -34,7 +37,9 @@
 <createdTime>2014-03-27 23:50:16 UTC</createdTime>
 <generatorID>C5F4A999-03A7-6EA0-2FE9-F355A2703183</generatorID>
 <ownerDesignName>ensemble_examples</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
+<item key="66074FBB-44C1-E135-4B2A-D0E57F543F68" value="false"/>
 <item key="62342BBE-70A5-7907-7F80-5484DC29A576" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
@@ -47,7 +52,9 @@
 <createdTime>2014-03-27 23:50:16 UTC</createdTime>
 <generatorID>B5C930EF-E111-485D-3C68-09D18FF6B715</generatorID>
 <ownerDesignName>ensemble_examples</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
+<item key="66074FBB-44C1-E135-4B2A-D0E57F543F68" value="false"/>
 <item key="62342BBE-70A5-7907-7F80-5484DC29A576" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
@@ -60,7 +67,9 @@
 <createdTime>2014-03-27 23:50:16 UTC</createdTime>
 <generatorID>D91E957A-E260-719E-EAFD-491E2204863E</generatorID>
 <ownerDesignName>ensemble_examples</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
+<item key="66074FBB-44C1-E135-4B2A-D0E57F543F68" value="false"/>
 <item key="62342BBE-70A5-7907-7F80-5484DC29A576" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
@@ -75,7 +84,9 @@
 <createdTime>2014-03-27 23:50:16 UTC</createdTime>
 <generatorID>63A8BFB3-F82E-94E3-58F5-5CE06E3ECDA7</generatorID>
 <ownerDesignName>ensemble_examples</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
+<item key="66074FBB-44C1-E135-4B2A-D0E57F543F68" value="false"/>
 <item key="62342BBE-70A5-7907-7F80-5484DC29A576" value="true"/>
 </engineerTo>
 <pk>true</pk>

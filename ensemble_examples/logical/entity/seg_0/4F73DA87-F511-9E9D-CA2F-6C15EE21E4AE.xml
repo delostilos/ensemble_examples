@@ -5,6 +5,7 @@
 <generatorID>F7724B32-3A5B-6A5B-2D26-AF2DB536F611</generatorID>
 <ownerDesignName>ensemble_examples</ownerDesignName>
 <engineerTo>
+<item key="66074FBB-44C1-E135-4B2A-D0E57F543F68" value="true"/>
 <item key="62342BBE-70A5-7907-7F80-5484DC29A576" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -22,7 +23,9 @@
 <createdTime>2014-03-27 23:50:16 UTC</createdTime>
 <generatorID>112E66D6-ECF7-C570-772C-BDF2B11EED88</generatorID>
 <ownerDesignName>ensemble_examples</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
+<item key="66074FBB-44C1-E135-4B2A-D0E57F543F68" value="false"/>
 <item key="62342BBE-70A5-7907-7F80-5484DC29A576" value="true"/>
 </engineerTo>
 <use>0</use>
@@ -34,7 +37,9 @@
 <createdTime>2014-03-27 23:50:16 UTC</createdTime>
 <generatorID>9D46B16C-E4B8-D608-D9D7-DFDA736D5C92</generatorID>
 <ownerDesignName>ensemble_examples</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
+<item key="66074FBB-44C1-E135-4B2A-D0E57F543F68" value="false"/>
 <item key="62342BBE-70A5-7907-7F80-5484DC29A576" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
@@ -49,7 +54,9 @@
 <createdTime>2014-03-27 23:50:16 UTC</createdTime>
 <generatorID>7D326AC4-7B3A-C8F4-89DC-C83FF59DCC53</generatorID>
 <ownerDesignName>ensemble_examples</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
+<item key="66074FBB-44C1-E135-4B2A-D0E57F543F68" value="false"/>
 <item key="62342BBE-70A5-7907-7F80-5484DC29A576" value="true"/>
 </engineerTo>
 <pk>true</pk>

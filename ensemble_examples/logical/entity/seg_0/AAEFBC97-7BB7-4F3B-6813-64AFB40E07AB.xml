@@ -5,6 +5,7 @@
 <generatorID>DAB190F4-F322-574D-55B4-041C325B552A</generatorID>
 <ownerDesignName>ensemble_examples</ownerDesignName>
 <engineerTo>
+<item key="66074FBB-44C1-E135-4B2A-D0E57F543F68" value="true"/>
 <item key="62342BBE-70A5-7907-7F80-5484DC29A576" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -23,6 +24,7 @@
 <generatorID>484C20D1-9699-F1DF-5638-CB3BAC3D2532</generatorID>
 <ownerDesignName>ensemble_examples</ownerDesignName>
 <engineerTo>
+<item key="66074FBB-44C1-E135-4B2A-D0E57F543F68" value="true"/>
 <item key="62342BBE-70A5-7907-7F80-5484DC29A576" value="true"/>
 </engineerTo>
 <referedAttribute>3940AFEC-71C7-FA66-8F42-992CE1351133</referedAttribute>
@@ -35,7 +37,9 @@
 <createdTime>2014-03-27 23:50:16 UTC</createdTime>
 <generatorID>35AC9FFC-ABCE-692D-1AEF-0C01D0DA4C8E</generatorID>
 <ownerDesignName>ensemble_examples</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
+<item key="66074FBB-44C1-E135-4B2A-D0E57F543F68" value="false"/>
 <item key="62342BBE-70A5-7907-7F80-5484DC29A576" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
@@ -50,10 +54,13 @@
 <createdTime>2014-03-27 23:50:16 UTC</createdTime>
 <generatorID>AD12CA29-DEC6-3AA3-8291-D8FD7B37ED48</generatorID>
 <ownerDesignName>ensemble_examples</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
+<item key="66074FBB-44C1-E135-4B2A-D0E57F543F68" value="false"/>
 <item key="62342BBE-70A5-7907-7F80-5484DC29A576" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>484C20D1-9699-F1DF-5638-CB3BAC3D2532,A5A1FB00-5551-9AAA-B695-F13638BE957E</newElementsIDs>
 <usedAttributes>
 <attributeRef>F4D4D897-B809-53DF-3377-A8FACABFBBD7</attributeRef>
 </usedAttributes>

@@ -1,11 +1,11 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.logical.LogicalDesign>
-   <object objectType="Entity" objectID="AAEFBC97-7BB7-4F3B-6813-64AFB40E07AB" name="Interest" seqName="seg_0"/>
-   <object objectType="Entity" objectID="3599DFDC-5DDE-0590-DDB9-CB520B3225AC" name="Employee" seqName="seg_0"/>
    <object objectType="Entity" objectID="07E1B5AE-FE56-509C-55DE-E418ABD5CDC7" name="Department" seqName="seg_0"/>
+   <object objectType="Entity" objectID="3599DFDC-5DDE-0590-DDB9-CB520B3225AC" name="Employee" seqName="seg_0"/>
+   <object objectType="Entity" objectID="AAEFBC97-7BB7-4F3B-6813-64AFB40E07AB" name="Interest" seqName="seg_0"/>
    <object objectType="Entity" objectID="4F73DA87-F511-9E9D-CA2F-6C15EE21E4AE" name="Product" seqName="seg_0"/>
    <object objectType="Relation" objectID="256CA19F-A9C7-BAC7-8BCF-719EDDC49710" name="Employee_Department_FK" seqName="seg_0"/>
-   <object objectType="Relation" objectID="5D3B2E3B-F605-A1AC-596A-2600421D282E" name="Manager_FK" seqName="seg_0"/>
-   <object objectType="Relation" objectID="A5A1FB00-5551-9AAA-B695-F13638BE957E" name="Interest_Product_FK" seqName="seg_0"/>
    <object objectType="Relation" objectID="484C20D1-9699-F1DF-5638-CB3BAC3D2532" name="Interest_Employee_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="A5A1FB00-5551-9AAA-B695-F13638BE957E" name="Interest_Product_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="5D3B2E3B-F605-A1AC-596A-2600421D282E" name="Manager_FK" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.logical.LogicalDesign>

@@ -5,6 +5,7 @@
 <generatorID>295C370B-2BBA-5166-FE06-BA3D2AF4B9D5</generatorID>
 <ownerDesignName>ensemble_examples</ownerDesignName>
 <engineerTo>
+<item key="66074FBB-44C1-E135-4B2A-D0E57F543F68" value="true"/>
 <item key="62342BBE-70A5-7907-7F80-5484DC29A576" value="true"/>
 </engineerTo>
 <useSurrogateKey>true</useSurrogateKey>
